@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@sanity/cli": "^3.14.3",
+    "@sanity/types": "^3.14.3",
+    "@types/node": "^18.17.0",
+    "@types/shopify-buy": "^2.17.1",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@nuxtjs/sanity": "^1.8.0",
+    "@sanity/image-url": "^1.0.2",
+    "groq": "^3.14.3",
+    "shopify-buy": "^2.20.1"
+  }
+}
